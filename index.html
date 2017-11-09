@@ -7,95 +7,82 @@
     <meta name="keywords" content="Alexandre Bernard Developpeur FullStack Web"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/rectuscorp.css"/>
     <link href="css/navbar-fixed-side.css" rel="stylesheet"/>
 </head>
 <body>
-
-
-
-
-
-
-
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-3 col-lg-2">
-            <nav class="navbar navbar-default navbar-fixed-side">
-                <!-- normal collapsible navbar markup -->
-                <div class="top">
-                    <!-- Logo -->
-                    <div id="logo">
-                        <div class="img-responsive avatar">
-                            <img src="images/logo_green.png" alt="avatar"/>
-                        </div>
-                        <div>
-                            <h1 id="title">Alexandre Bernard</h1>
-
-                            <p>Developpeur Front-end / Back-end</p>
-                        </div>
-                    </div>
-
-                    <!-- Nav -->
-                    <nav id="nav">
-                        <ul>
-                            <li>
-                                <a href="#cv" id="cv-link" class="skel-layers-ignoreHref">
-                                    <span class="icon fa-home">CV</span>
-                                </a>
-                            </li>
-                            <!--  <li>
-                                 <a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref">
-                                     <span class="icon fa-th">Portfolio</span>
-                                 </a>
-                            </li>
-                            <li>
-                                 <a href="#about" id="about-link" class="skel-layers-ignoreHref">
-                                     <span class="icon fa-user">About Me</span>
-                                 </a>
-                             </li>
-                             <li>
-                                 <a href="#contact" id="contact-link" class="skel-layers-ignoreHref">
-                                     <span class="icon fa-envelope">Contact</span>
-                                 </a>
-                             </li>-->
-                        </ul>
-                    </nav>
-                </div>
-                <div class="bottom">
-                    <div style="text-align: center;">
-                        <a href="https://www.codewars.com/users/rectus29/" style="border-bottom: none;" target="_blank">
-                            <img src="https://www.codewars.com/users/rectus29/badges/micro" alt="Codewars">
+    <nav class="navbar navbar-left navbar-inverse navbar-fixed-side">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo_green.png" class="img-responsive" alt="avatar">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <h1 id="title">Alexandre Bernard</h1>
+                        <p>Developpeur Front-end / Back-end</p>
+                    </li>
+                    <li>
+                        <a href="#cv" id="cv-link">
+                            <i class="fa fa-home icon"></i><span class="pull-right">CV</span>
                         </a>
-                    </div>
-                    <ul class="icons">
-                        <li>
-                            <a href="https://twitter.com/rectus_29" target="_blank" class="icon fa-twitter">
-                                <span class="label">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/pub/alexandre-bernard/9b/636/78a" target="_blank"
-                               class="icon fa-linkedin">
-                                <span class="label">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/rectus29" class="icon fa-github" target="_blank">
-                                <span class="label">Github</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="icon fa-envelope">
-                                <span class="label">Email</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                </div>
-            </nav>
+                    </li>
+                    <li>
+                        <a href="#portfolio" id="portfolio-link">
+                            <i class="icon fa fa-th"></i><span class="pull-right">Portfolio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" id="about-link">
+                            <i class="icon fa fa-user"></i><span class="pull-right">About Me</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" id="contact-link">
+                            <i class="icon fa fa-envelope"></i><span class="pull-right">Contact</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
-        <div class="col-sm-9 col-lg-10">
-            <!-- your page content -->
+        <div id="navBottomBar">
+            <div style="text-align: center;">
+                <a href="https://www.codewars.com/users/rectus29/" style="border-bottom: none;" target="_blank">
+                    <img src="https://www.codewars.com/users/rectus29/badges/micro" alt="Codewars">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://twitter.com/rectus_29" target="_blank" class="icon fa fa-twitter">
+                        <span class="label">Twitter</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.linkedin.com/pub/alexandre-bernard/9b/636/78a" target="_blank"
+                       class="icon fa fa-linkedin">
+                        <span class="label">LinkedIn</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://github.com/rectus29" class="icon fa fa-github" target="_blank">
+                        <span class="label">Github</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="icon fa fa-envelope">
+                        <span class="label">Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="row">
+        <div class="col-sm-offset-3 col-sm-9 col-lg-offset-2 col-lg-10">
             <section id="cv" class="three">
                 <div class="container">
 
@@ -109,10 +96,9 @@
                                     <li>Java / JEE</li>
                                     <li>PHP</li>
                                     <li>HTML 4/5</li>
-                                    <li>CSS</li>
-                                    <li>MySQL / MSSQL</li>
-                                    <li>JavaScript / Ajax</li>
-                                    <li>Action Script</li>
+                                    <li>CSS 2/3</li>
+                                    <li>MySQL / MSSQL / PostGre / Oracle</li>
+                                    <li>JavaScript</li>
                                 </ul>
                             </div>
                             <div class="6u">
@@ -167,7 +153,7 @@
                             <div class="6u">2007 - 2009</div>
                             <div class="6u">
                                 Brevet Technicien Supérieur : Informatique de Gestion option développeur
-                                d'applications. <a target="_blank" href="http://www.saint-louis29.fr/BTS.php">Lycée St
+                                d'applications. <a target="_blank" href="http://www.saint-louis29.net/?page=bts">Lycée St
                                 Louis</a>
                                 Châteaulin
                             </div>
@@ -176,10 +162,6 @@
                         <div class="row">
                             <div class="6u">2005 - 2007</div>
                             <div class="6u">
-                                Brevet Technicien Supérieur : Informatique de Gestion option développeur
-                                d'applications. <a target="_blank" href="http://www.saint-louis29.fr/BTS.php">Lycée St
-                                Louis</a>
-                                Châteaulin
                                 BAC professionnel : Micro-informatique et Réseau Installations et Maintenance.
                                 <a target="_blank" href="http://www.ecole-croix-rouge.com/">Lycée technique La Croix
                                     Rouge</a>
@@ -194,9 +176,7 @@
 
 
                 </div>
-            </section>
-
-            <!-- Portfolio -->
+            </section>            
             <section id="portfolio" class="two">
                 <div class="container">
 
@@ -255,10 +235,7 @@
                     </div>
 
                 </div>
-            </section>
-
-
-            &lt;!&ndash; About Me &ndash;&gt;
+            </section>            
             <section id="about" class="four">
                 <div class="container">
 
@@ -276,9 +253,7 @@
                         ornare iaculis.</p>
 
                 </div>
-            </section>
-
-            &lt;!&ndash; Contact &ndash;&gt;
+            </section>            
             <section id="contact" class="five">
                 <div class="container">
 
