@@ -16,7 +16,14 @@ body{
     bottom: 0px;
     left: 0px;
 }
-
+.navbar #titleHolder {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #363636;
+}
 #header .icons a:hover
 {
     color: #6DB022;
