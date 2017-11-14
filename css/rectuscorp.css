@@ -2,6 +2,10 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: #888;
+    /*background-image: url('../images/logo_grey.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
 }
 
 #leftPanel{
@@ -11,11 +15,48 @@ body{
     text-align: right;
 }
 
+#title{
+    font-size: 23px;
+    font-weight: bold;
+    color: #d4d4d4;
+}
+
 #navBottomBar{
     position: absolute;
     bottom: 0px;
     left: 0px;
+    width: 100%;
 }
+
+#codeWarHolder{
+    height :25px;
+    margin: 0 0 15px 0;
+}
+
+#linkHolder{
+    height: 30px;
+    margin: 0 0 15px 0;
+}
+
+#linkHolder .linkHolderElement{
+    
+}
+
+#linkHolder .linkHolderElement a{
+    font-size: 22px;   
+    color: #9d9d9d;
+    transition: color 0.25s;
+}
+#linkHolder .linkHolderElement a:hover{
+    color: #6db022;
+    text-decoration: none;
+}
+#linkHolder .linkHolderElement a .label{
+    display: none;    
+}
+
+
+
 .navbar #titleHolder {
     position: relative;
     display: block;
