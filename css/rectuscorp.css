@@ -55,7 +55,13 @@ body{
     display: none;    
 }
 
+h1{
+    
+}
 
+h1:first-letter, h2:first-letter, h3:first-letter, h4:first-letter, h5:first-letter, h6:first-letter, h7:first-letter,h8:first-letter{
+    color: #6db022;
+}
 
 .navbar #titleHolder {
     position: relative;

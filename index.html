@@ -8,18 +8,26 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/rectuscorp.css"/>
-    <link href="css/navbar-fixed-side.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/navbar-fixed-side.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <div id="mainContainer" class="container-fluid">
-    <nav class="navbar navbar-right navbar-inverse navbar-fixed-side">
+    <nav class="navbar navbar-right navbar-inverse navbar-fixed-side col-md-2">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#">
                     <img src="images/logo_green.png" class="img-responsive" alt="avatar">
                 </a>
             </div>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
                 <ul class="nav navbar-nav" style="text-align: right">
                     <li id="titleHolder">
                         <div id="title">Alexandre Bernard</div>
@@ -53,7 +61,7 @@
                 </ul>
             </div>
         </div>
-        <div id="navBottomBar">
+        <div id="navBottomBar" class="hidden-sm hidden-xs">
             <div style="text-align: center;" id="codeWarHolder">
                 <a href="https://www.codewars.com/users/rectus29/" style="border-bottom: none;" target="_blank">
                     <img src="https://www.codewars.com/users/rectus29/badges/micro" alt="Codewars">
@@ -84,11 +92,10 @@
             </div>
         </div>
     </nav>    
-    <div class="row">
-        <div class="col-sm-offset-3 col-sm-9 col-lg-offset-2 col-lg-10">
-            <section id="cv" class="three">
+    <div class="row col-lg-offset-2 col-md-offset-3 col-sm-offset-4">
+        <div class="col-md-10">
+            <section id="cv">
                 <div class="container">
-
                     <div id="cv_content">
                         <h3>Compétences :</h3>
 
@@ -98,8 +105,8 @@
                                 <ul>
                                     <li>Java / JEE</li>
                                     <li>PHP</li>
-                                    <li>HTML 4/5</li>
-                                    <li>CSS 2/3</li>
+                                    <li>HTML 5</li>
+                                    <li>CSS 3</li>
                                     <li>MySQL / MSSQL / PostGre / Oracle</li>
                                     <li>JavaScript</li>
                                 </ul>
@@ -288,14 +295,12 @@
 
                 </div>
             </section>
-            <div id="footer">
-                <ul class="copyright">
-                    <li>&copy; Alexandre Bernard, All rights reserved.</li>
-                </ul>
-            </div>
-
-
         </div>
+    </div>
+    <div id="footer" class="row">
+        <div class="col-md-4 offset-md-4">
+            &copy; Alexandre Bernard, All rights reserved.
+        </div>        
     </div>
 </div>
 <script>
